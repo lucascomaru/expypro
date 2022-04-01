@@ -1,4 +1,5 @@
 import math
+#1ex
 area_a_ser_pintada = int(input('Digite a área em metros quadrados a ser pintada: '))
 area_com_folga = area_a_ser_pintada * 1.1
 litros_por_metro = 6
