@@ -1,4 +1,4 @@
-numero = int(input('Digite um número inteiro de 1 a 999: '))
+numero = int(input('Digite um número inteiro de 0 a 999: '))
 centena_Str = dezena_str = unidade_str = ''
 centena_int, numero = divmod(numero, 100)
 partes_numericas = 0
