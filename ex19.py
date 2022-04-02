@@ -22,7 +22,7 @@ if numero == 1:
 elif numero >1:
     unidade_str = f'{numero} unidades'
     partes_numericas += 1
-#Formatando o código
+#Formatando o código!
 if partes_numericas == 0:
     print('Número 0 não possui centenas,dezenas ou unidades')
 elif partes_numericas == 1:
