@@ -12,3 +12,5 @@ for c in range(1, 6):
 print(f'Você digitou {qnt} idades')
 print(f'A maior idade é : {maior}')
 print(f'A menor idade é : {menor}')
+
+
