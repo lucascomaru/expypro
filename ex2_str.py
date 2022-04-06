@@ -1,0 +1,6 @@
+nome = input('Digite seu nome: ').upper()
+nome_invertido = ''.join(reversed(nome))
+nome_invertido_palavras = ' '.join(reversed(nome.split()))
+print(f'Nome com lestras e maiúsculo: {nome}')
+print(f'Nome com letra em maiúsculo invertido por letras: {nome_invertido}')
+print(f'Nome com letras em maíusculo invertido por palavras: {nome_invertido_palavras}')
