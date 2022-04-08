@@ -12,7 +12,7 @@ def validar(ip:str) -> bool:
 ips_validos = []
 ips_invalidos = []
 
-with open('new_data/ips', 'r') as arquivo:
+with open('../new_data/ips', 'r') as arquivo:
     for linha in arquivo:
         ip =(linha.strip())
         if validar(ip):
@@ -21,7 +21,7 @@ with open('new_data/ips', 'r') as arquivo:
             ips_invalidos.append(ip)
 
 
-with open('new_data/ips_saida', 'w') as arquivo:
+with open('../new_data/ips_saida', 'w') as arquivo:
     arquivo.writelines('[Endereços válidos:]\n')
 
     for ip in ips_validos:
